@@ -1,0 +1,550 @@
+html{
+    background-color: var(--fondo-blanco);
+}
+/*Menú*/
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--fondo-blanco);
+    align-items: center;
+    
+}
+.encabezado{
+    display: flex;
+    align-items:center;
+    margin: 1.5rem 2.5rem;
+   
+}
+.encabezado__titulo{
+    color: var(--negro-texto);
+    font-family: Raleway;
+    margin-left: 1rem;
+    font-size: 16px;
+}
+.encabezado__imagen{
+    width: 24px;
+    height: 24px;
+}
+.navegador{
+    width: 50%;
+    margin: 1.5rem 2.5rem;
+}
+.navegador__lista{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navegador__item{
+    color: var(--negro-texto);
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 16px;
+}
+.navegador__item--correo{
+    color: var(--negro-texto);
+    text-decoration: none;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 16px;
+}
+/*Presentacion*/
+.presentacion{
+    background-color: var(--fondo-blanco);
+
+}
+.presentacion__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.presentacion__imagen{
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    margin: 1rem 2rem;
+}
+.presentacion__info{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 1rem 2rem;
+}
+.presentacion__titulo{
+    color: var(--negro-texto);
+    font-family: Raleway;
+    font-size: 52px;
+    font-weight: bold;
+}
+.presentacion__texto{
+    color: var(--negro-texto);
+    font-family: Raleway;
+    font-size: 22px;
+    margin-top: 1rem;
+}
+.presentacion__lista-redes{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+.presentacion__lista-item{
+    text-decoration: none;
+    margin-right: 1.5rem;
+    color: var(--negro-texto);
+    font-family: Raleway;
+}
+/*Sobre Mi*/
+.sobre-mi{
+    background-color: var(--fondo-azul);
+}
+.sobre-mi__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left:3rem;
+    padding: 3rem 1rem;
+}
+.sobre-mi__titulo{
+    color: var(--negro-texto);
+    font-family: Raleway;
+    font-size: 32px;
+    margin: 0.5rem 1rem;
+    font-weight: bold;
+}
+.sobre-mi__texto{
+    color: var(--negro-texto);
+    font-family: Raleway;
+    font-size: 16pxs;
+    margin: 0.5rem 1rem;
+}
+.sobre-mi__firma{
+    width: 90px;
+    height: 70px;
+    margin: 1rem ;
+}
+/*Skills y Hobbies*/
+.skills{
+    background-color: var(--fondo-blanco);
+    padding-top: 2rem;
+    
+}
+.skills__titulo{
+    text-align: center;
+    color: var(--negro-texto);
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 32px;
+    margin: 1rem auto;
+}
+.skills__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.carta{
+    background-color: var(--fondo-carta);
+    width: 16%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 4rem;
+    
+}
+.skills__icono{
+    width: 32px;
+    height: 36px;
+    margin-left: 1rem;
+}
+.skills__nombre{
+    color: var(--negro-texto);
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.hobbies{
+    background-color: var(--fondo-blanco);
+}
+.hobbies__titulo{
+    text-align: center;
+    color: var(--negro-texto);
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 32px;
+    margin: 1rem auto;
+}
+.hobbies__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hobbies__icono{
+    width: 32px;
+    height: 36px;
+    margin-left: 1rem;
+}
+.hobbies__nombre{
+    color: var(--negro-texto);
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+/*formacion academica*/
+.formacion{
+    background-color: var(--fondo-azul);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.formacion__titulo{
+    text-align: center;
+    color: var(--negro-texto);
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 32px;
+    margin: 1.5rem auto;
+}
+.formacion__container{
+    display: flex;
+    justify-content: space-around;
+}
+.formacion__carta{
+    
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+.formacion__recuadro{
+    background-color: var(--fondo-carta);
+    padding: 2rem;
+    height: 286px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formacion__imagen{
+    width: 190px;
+    height: 130px;
+}
+.formacion__nombre{
+    color: var(--negro-texto);
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 1rem;
+}
+.formacion__datos{
+    color: var(--negro-texto);
+    font-family: Raleway;
+    font-size: 16px;
+    margin-top: 1rem;
+}
+/*experiencia*/
+.experiencia{
+    background-color: var(--fondo-blanco);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.experiencia__titulo{
+    text-align: center;
+    color: var(--negro-texto);
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 32px;
+    margin: 1.5rem auto;
+}
+.experiencia__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.experiencia__imagen{
+    width: 600px;
+    height: 406px;
+}
+.experiencia__info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+.experiencia__nombre{
+    color: var(--negro-texto);
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 22px;
+}
+.experiencia__descripcion{
+    color: var(--negro-texto);
+    font-family: Raleway;
+    font-size: 16px;
+    margin-top: 1rem;
+}
+.experiencia__botones{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5rem;
+    justify-content: space-between;
+    
+}
+.experiencia__boton{
+    font-size: 16px;
+    color: var(--azul-boton);
+    border-color: var(--azul-boton);
+    background-color: var(--fondo-blanco);
+    padding: 0.5rem 0.8rem;
+    font-family: Raleway;
+}
+.experiencia__boton--demo{
+    font-size: 16px;
+    border-color: var(--azul-boton);
+    background-color: var(--azul-boton);
+    color: var(--fondo-carta);
+    padding: 0.5rem 0.8rem;
+    font-family: Raleway;
+}
+/*formulario de contacto*/
+.contacto{
+    display: flex;
+    justify-content: center;
+    background-color: var(--fondo-azul);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.contacto__imagen{
+    width: 30%;
+}
+.contacto__titulo{
+    text-align: center;
+    color: var(--negro-texto);
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 32px;
+}
+.contacto__texto{
+    color: var(--negro-texto);
+    font-family: Raleway;
+    font-size: 16px;
+}
+.contacto__formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 1.8rem;
+}
+.contacto__info{
+    color: var(--negro-texto);
+    font-family: Raleway;
+    font-size: 16px;
+}
+.contacto__boton{
+    font-size: 16px;
+    border-color: var(--azul-boton);
+    background-color: var(--azul-boton);
+    color: var(--fondo-carta);
+    width: 50%;
+    padding: 0.5rem 0.8rem;
+    font-family: Raleway;
+    align-self: center;
+}
+.contacto__area-texto{
+    margin-top: 1rem;
+    min-height: 20px;
+}
+
+
+
+/*footer*/
+
+.rodapie{
+    text-align: center;
+    background-color: var(--fondo-blanco);
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+}
+.rodapie__info{
+    color: var(--negro-texto);
+    font-family: Raleway;
+    font-size: 16px;
+    margin-top: 1rem;
+}
+.rodapie__year{
+    color: var(--negro-texto);
+    font-family: Raleway;
+    font-size: 14px;
+    margin-top: 0.3rem;
+}
+
+/*versión movil*/
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 1000px){
+    /*menu*/
+    .navegador__item{
+        display: none;
+    }
+
+    /*Presentacion*/
+    .presentacion__container{
+        display: flex;
+        align-items:flex-start;
+        justify-content: space-between;
+    }
+    .presentacion__info{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin: 1rem;
+    }
+    .presentacion__titulo{
+        font-size: 22px;
+    }
+    .presentacion__imagen{
+        border-radius: 100%;
+        width: 146px;
+        height: 146px;
+        margin: 1rem 0.5rem;
+    }
+    .presentacion__texto{
+        color: var(--negro-texto);
+        font-family: Raleway;
+        font-size: 16px;
+        margin-top: 1rem;
+    }
+    .presentacion__lista-item{
+        text-decoration: none;
+        margin-right: 0.5rem;
+        color: var(--negro-texto);
+        font-family: Raleway;
+        font-size: 12px;
+    }
+    /*Sobre Mi*/
+    .sobre-mi__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-left:0.5rem;
+        padding: 3rem 1rem;
+    }
+    .sobre-mi__titulo{
+        color: var(--negro-texto);
+        font-family: Raleway;
+        font-size: 22px;
+        margin: 0.5rem 1rem;
+        font-weight: bold;
+    }
+    .sobre-mi__texto{
+        color: var(--negro-texto);
+        font-family: Raleway;
+        font-size: 14px;
+        margin: auto;
+    }
+        /*Skills y Hobbies*/
+    .skills__container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .skills__titulo{
+        text-align: center;
+        color: var(--negro-texto);
+        font-family: Raleway;
+        font-weight: bold;
+        font-size: 22px;
+        margin: 1rem auto;
+    }
+    .carta{
+        background-color: var(--fondo-carta);
+        width: 40%;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-bottom: 1rem;
+        
+    }
+    
+    .hobbies__titulo{
+        text-align: center;
+        color: var(--negro-texto);
+        font-family: Raleway;
+        font-weight: bold;
+        font-size: 22px;
+        margin: 1rem auto;
+    }
+    .hobbies__container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    /*formacion academica*/
+    .formacion__container{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .formacion__carta{
+    
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .formacion__carta{
+    
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+    .formacion__titulo{
+        font-size: 22px;
+    }
+    /*experiencia*/
+    .experiencia__container{
+        display: flex;
+        justify-content:center;
+        flex-wrap: wrap;
+    }
+    .experiencia__titulo{
+        font-size: 22px;
+    }
+    .experiencia__imagen{
+        width: 296px;
+        height: 180px;
+    }
+    .experiencia__nombre{
+        color: var(--negro-texto);
+        font-family: Raleway;
+        font-weight: bold;
+        font-size: 16px;
+        margin-top: 1rem;
+    }
+    .experiencia__descripcion{
+        color: var(--negro-texto);
+        font-family: Raleway;
+        font-size: 14px;
+        margin-top: 1rem;}
+    /*contacto*/
+
+    .contacto__titulo{
+        font-size: 22px;
+    }
+    .contacto__info{
+        color: var(--negro-texto);
+        font-family: Raleway;
+        font-size: 12px;
+        margin-top: 1rem;
+    }
+    .contacto__imagen{
+        display: none;
+    }
+  }
